@@ -15,9 +15,9 @@ cache:
       - client/node_modules
 install:
   - npm install
-  - npm build
+  - npm run build
 script:
   - nohup npm run  start &
-  - sleep 5  
+  - sleep 3
   - npm run test
   
